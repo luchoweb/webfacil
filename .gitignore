@@ -1,0 +1,8 @@
+wp-admin
+wp-includes
+wp-content/plugins
+wp-content/languages
+wp-content/themes/index.php
+*.php
+*.txt
+*.html
