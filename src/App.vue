@@ -28,7 +28,7 @@
   }
   #app {
     font-family: 'Quicksand', Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: #222222;
   }
 </style>

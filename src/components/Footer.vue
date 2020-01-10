@@ -2,23 +2,30 @@
   <footer class="pt-4">
     <div class="container">
       <div class="row">
-        <div class="col col-lg-4">
-          <h3>Why Us?</h3>
-          <p>At webfacil want help you with your needs. We want to improvement your relation with the clients and grow up your sells.</p>
+        <div class="col col-lg-4 box-why-us">
+          <h3>¿Por qué nosotros?</h3>
+          <p>En webfacil siempre será nuestra prioridad hacer crecer su marca en Internet y ventas. Para nosotros los resultados son <i>importantes</i> y por ello nos enfocamos en que se cumplan.</p>
+          <p>Trabajaremos para ti, para que se cumplan tus metas y crezcas en Internet.</p>
         </div>
-        <div class="col col-lg-4">
-          <h3>Contact</h3>
-          <p>Do you need help or some service? Please call us to +57-3057863874 or send a email to luis@webfacil.com.co</p>
+        <div class="col col-lg-4 box-contact">
+          <h3>Contacto</h3>
+          <p>Si necesitas ayuda con un pago o soporte de tu servicio, siempre estaremos dispuestos para ti en los diferentes canales de ayuda:</p>
+          <ul class="help pl-3 mb-0">
+            <li>Llamada*/WhatsApp: +57 305 786 3874</li>
+            <li>Correo 24/7: luis@webfacil.com.co</li>
+          </ul>
+          <p class="mt-3 hours">* Horario llamadas: Lun-Sáb 9:00-17:00</p>
         </div>
-        <div class="col col-lg-4">
+        <div class="col col-lg-4 box-blog">
           <h3>Blog</h3>
-          <p>We provide some articles for help you to understand how work some things in the Internet. <router-link to="/blog">Click here!</router-link></p>
+          <p>Semanalmente creamos articulos relacionados a nuestros servicios y a las tecnologias que usamos. Todo esto para que con ellos entiendas un poco más sobre lo que hacemos.</p>
+          <p><a href="https://dev.com.co" target="_blank">Ir al Blog DEV.com.co</a></p>
         </div>
       </div>
     </div>
     <div class="mt-4 box-copy">
       <div class="container">
-        <p class="mt-2 pt-2 pb-2 text-left copy">&copy; 2019 &bull; Prohibida su reproducción total o parcial.</p>
+        <p class="mt-2 pt-2 pb-2 text-left copy">webfacil &copy; 2019 &bull; <span class="ft-legal-text">Prohibida su reproducción total o parcial</span>.</p>
       </div>
     </div>
   </footer>
@@ -41,6 +48,7 @@
       line-height: 1.4;
       h3 {
         margin: 0 0 15px 0;
+        font-weight: 700;
       }
       p {
         &:last-child {
@@ -64,13 +72,34 @@
 
     .box-copy {
       background-color: $blue-main;
+
+      p {
+        &.copy {
+          font-size: 13px;
+          font-weight: 300;
+          margin: 0;
+
+          .ft-legal-text {
+            font-size: 12px;
+            vertical-align: text-top;
+          }
+        }
+      }
     }
 
-    p {
-      &.copy {
-        font-size: 13px;
-        font-weight: 300;
-        margin: 0;
+    .box-contact {
+      .hours {
+        font-size: 12px;
+      }
+    }
+
+    .box-blog {
+      a {
+        color: #ccc;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
