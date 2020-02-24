@@ -1,0 +1,112 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: #030d3a;
+  padding: .5em 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.top-bar ul li,
+.top-bar ul .social-link {
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 1em;
+  vertical-align: middle;
+}
+
+.top-bar ul li .fa {
+  margin-right: .4em;
+}
+
+.top-bar ul li .social-link:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+header {
+  background-color: #243374;
+  display: block;
+  padding: 3.5em 0 .5em 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9997;
+}
+
+header .logo-container {
+  float: left;
+}
+
+header .logo-container .logo {
+  margin: 0;
+}
+
+header .logo-container .logo img {
+  height: 60px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav .menu {
+  line-height: 60px;
+}
+
+header nav .menu li {
+  display: inline-block;
+  margin-right: 2em;
+  vertical-align: middle;
+}
+
+header nav .menu li:last-child {
+  margin-right: 0;
+}
+
+header nav .menu li a {
+  color: #ffffff;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+header nav .menu li a:hover {
+  opacity: 0.7;
+}
+
+.slider {
+  background-color: #f0f0f0;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+.slider li {
+  height: 450px;
+}
+
+.slider li img {
+  width: 100%;
+}
+
+.mrg-top {
+  margin-top: 127px;
+}
+/*# sourceMappingURL=styles.css.map */
